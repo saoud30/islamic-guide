@@ -4,8 +4,6 @@
 ### Your Spiritual Companion in the Digital Age
 
 [![Project Status: Active](https://img.shields.io/badge/Status-Active-brightgreen)](https://github.com/Saoud30/Islamic-Guide)
-[![GitHub Issues](https://img.shields.io/github/issues/Saoud30/Islamic-Guide/)](https://github.com/Saoud30/Islamic-Guide/issues)
-[![GitHub Stars](https://img.shields.io/github/stars/Saoud30/Islamic-Guide/)](https://github.com/Saoud30/Islamic-Guide/stargazers)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Made with React](https://img.shields.io/badge/Made%20with-React-61DAFB.svg)](https://reactjs.org/)
 
