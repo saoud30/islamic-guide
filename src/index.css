@@ -1,0 +1,83 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: 'Amiri';
+    src: url('https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&display=swap');
+  }
+
+  @font-face {
+    font-family: 'Inter var';
+    src: url('https://rsms.me/inter/inter.css');
+  }
+
+  @font-face {
+    font-family: 'Plus Jakarta Sans';
+    src: url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-gradient-to-br from-white to-gold-50 text-secondary-800 font-sans antialiased min-h-screen;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply inline-flex items-center justify-center px-4 py-2 rounded-lg font-medium transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2;
+  }
+
+  .btn-primary {
+    @apply btn bg-gradient-to-r from-gold-400 to-gold-300 text-white hover:from-gold-500 hover:to-gold-400 focus:ring-gold-300;
+  }
+
+  .btn-secondary {
+    @apply btn bg-white/80 backdrop-blur-sm text-gold-700 hover:bg-gold-50 focus:ring-gold-200 border border-gold-200;
+  }
+
+  .card {
+    @apply bg-white/80 backdrop-blur-sm rounded-xl shadow-soft border border-gold-100/50 p-6 transition-all duration-300 hover:shadow-lg;
+  }
+
+  .glass-card {
+    @apply bg-white/60 backdrop-blur-md border border-gold-100/30 rounded-2xl shadow-soft;
+  }
+
+  .input {
+    @apply w-full px-4 py-2 rounded-lg border-gold-200 focus:border-gold-400 focus:ring-gold-300 transition-all duration-200;
+  }
+
+  .select {
+    @apply w-full px-4 py-2 rounded-lg border-gold-200 focus:border-gold-400 focus:ring-gold-300 transition-all duration-200;
+  }
+
+  .nav-link {
+    @apply flex items-center gap-2 px-4 py-2 rounded-lg transition-all duration-200 hover:bg-gold-50;
+  }
+
+  .nav-link-active {
+    @apply bg-gold-50 text-gold-700;
+  }
+
+  .tajweed {
+    @apply relative cursor-help;
+  }
+
+  .tajweed:hover::after {
+    @apply absolute bottom-full left-1/2 transform -translate-x-1/2 bg-black/80 text-white px-4 py-2 rounded-lg text-sm whitespace-nowrap z-50 animate-fade-in;
+    content: attr(data-description);
+  }
+}
+
+.font-arabic {
+  font-family: 'Amiri', serif;
+}
