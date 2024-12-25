@@ -3,9 +3,9 @@
 # 🌟 Islamic Guide
 ### Your Spiritual Companion in the Digital Age
 
-[![Project Status: Active](https://img.shields.io/badge/Status-Active-brightgreen)](https://github.com/Saoud30/Islamic-Guide.git)
-[![GitHub Issues](https://img.shields.io/github/issues/yourusername/your-repo-name)](https://github.com/Saoud30/Islamic-Guide.git/issues)
-[![GitHub Stars](https://img.shields.io/github/stars/yourusername/your-repo-name)](https://github.com/Saoud30/Islamic-Guide.git/stargazers)
+[![Project Status: Active](https://img.shields.io/badge/Status-Active-brightgreen)](https://github.com/Saoud30/Islamic-Guide)
+[![GitHub Issues](https://img.shields.io/github/issues/yourusername/your-repo-name)](https://github.com/Saoud30/Islamic-Guide/issues)
+[![GitHub Stars](https://img.shields.io/github/stars/yourusername/your-repo-name)](https://github.com/Saoud30/Islamic-Guide/stargazers)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Made with React](https://img.shields.io/badge/Made%20with-React-61DAFB.svg)](https://reactjs.org/)
 
@@ -116,7 +116,7 @@ Your contributions make our ummah stronger! Here's how you can help:
 
 <div align="center">
 
-[![Twitter](https://img.shields.io/twitter/follow/yourhandle?style=for-the-badge&logo=twitter)](https://twitter.com/Shazyansar/)
+[![Twitter](https://img.shields.io/twitter/follow/Shazyansar?style=for-the-badge&logo=twitter)](https://twitter.com/Shazyansar/)
 [![Instagram](https://img.shields.io/badge/Instagram-Follow-E4405F?style=for-the-badge&logo=instagram)](https://instagram.com/mohd._saoud/)
 
 </div>
